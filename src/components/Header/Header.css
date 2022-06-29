@@ -1,0 +1,45 @@
+.header-container {
+  background-color: rgb(68, 97, 226);
+  width: 100%;
+}
+
+.header-container-title {
+  height: 110px;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.header-container a {
+  text-decoration: none;
+  color: white;
+}
+
+.header-link {
+  text-align: center;
+  height: 50px;
+  width: 100%;
+}
+
+.header-link a {
+  margin-right: 25px;
+  font-size: 20px;
+}
+
+.active-nav-link {
+  border-bottom: 1px solid white;
+}
+
+@media (max-width: 320px) {
+  .header-container-title {
+    height: 75%;
+  }
+}
+
+@media (max-width: 375px) {
+  .header-container {
+    width: 100%;
+  }
+}

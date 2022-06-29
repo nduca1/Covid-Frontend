@@ -1,0 +1,96 @@
+body {
+  height: 200%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 20%;
+  overflow: none;
+  text-align: center;
+}
+h1 {
+  color: white;
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+}
+
+.covidData {
+  background-color: rgba(69, 60, 90, 0.445);
+  margin: auto;
+  padding: 10px;
+  height: 100%;
+}
+.covidData_form {
+  padding: 10px;
+  margin: 20px;
+}
+.covidData_input input {
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  font-size: medium;
+  border-radius: 12px;
+  display: inline-block;
+  font-size: 20px;
+  font-family: "Rubik", sans-serif;
+}
+.covidData_input button {
+  width: 80px;
+  height: 50px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  background-color: rgb(199, 15, 15);
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  border-radius: 12px;
+  border: none;
+  box-shadow: 5px 5px 5px rgb(71, 67, 67);
+  cursor: pointer;
+  display: inline-block;
+}
+.divider {
+  width: 5px;
+  height: auto;
+  display: inline-block;
+}
+button:hover {
+  background-color: purple;
+}
+.covidData__country__info {
+  font-size: 20px;
+  font-family: "Rubik", sans-serif;
+  height: auto;
+  text-align: center;
+  background-color: rgb(67, 217, 236);
+  padding: 10px;
+  text-shadow: 1px 1px 1px rgb(71, 67, 67);
+}
+
+@media (max-width: 320px) {
+  body {
+    overflow: scroll;
+  }
+  .covidData {
+    width: 250px;
+    height: 75%;
+  }
+  .covidData_input input {
+    width: 100%;
+    height: 30px;
+  }
+  .covidData_input button {
+    width: 150px;
+    height: 30px;
+    margin-top: 10px;
+    font-size: 20px;
+    border-radius: 12px;
+  }
+  .covidData__country__info {
+    width: 150px;
+  }
+}
+
+@media (max-width: 375px) {
+  .covidData {
+    width: 300px;
+  }
+}
